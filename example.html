@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<title>rescache example</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="jquery.min.js"></script>
+		<script type="text/javascript" src="jquery.rescache.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<span class="image image1" res-cache='true'></span>
+				<span class="image image2" res-cache='true'></span>
+				<span class="image image3" res-cache='true'></span>
+			</div>
+			<div class="row">
+				<span class="image image4" res-cache='true'></span>
+				<span class="image image5" res-cache='true'></span>
+				<span class="image image6" res-cache='true'></span>
+			</div>
+			<div class="row">
+				<span class="image image7" res-cache='true'></span>
+				<span class="image image8" res-cache='true'></span>
+				<span class="image image9" res-cache='true'></span>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$.rescache.prefetchAll();
+			});
+		</script>
+	</body>
+</html>

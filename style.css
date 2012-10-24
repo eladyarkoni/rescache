@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	display: inline-block;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	padding: 20px;
+}
+
+.image1 {
+	background-image: url('images/1.jpg');
+}
+
+.image2 {
+	background-image: url('images/2.jpg');
+}
+
+.image3 {
+	background-image: url('images/3.jpg');
+}
+
+.image4 {
+	background-image: url('images/4.jpg');
+}
+
+.image5 {
+	background-image: url('images/5.jpg');
+}
+
+.image6 {
+	background-image: url('images/6.jpg');
+}
+
+.image7 {
+	background-image: url('images/7.jpg');
+}
+
+.image8 {
+	background-image: url('images/8.jpg');
+}
+
+.image9 {
+	background-image: url('images/9.jpg');
+}
